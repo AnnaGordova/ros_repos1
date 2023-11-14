@@ -1,0 +1,23 @@
+[0.842s] Invoking command in '/home/anna/ros2_ws1/build/nav_in_lab': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build --no-deps install_data
+[1.070s] running develop
+[1.214s] running egg_info
+[1.214s] creating nav_in_lab.egg-info
+[1.214s] writing nav_in_lab.egg-info/PKG-INFO
+[1.215s] writing dependency_links to nav_in_lab.egg-info/dependency_links.txt
+[1.215s] writing entry points to nav_in_lab.egg-info/entry_points.txt
+[1.215s] writing requirements to nav_in_lab.egg-info/requires.txt
+[1.215s] writing top-level names to nav_in_lab.egg-info/top_level.txt
+[1.215s] writing manifest file 'nav_in_lab.egg-info/SOURCES.txt'
+[1.216s] reading manifest file 'nav_in_lab.egg-info/SOURCES.txt'
+[1.216s] writing manifest file 'nav_in_lab.egg-info/SOURCES.txt'
+[1.217s] running build_ext
+[1.218s] Creating /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav-in-lab.egg-link (link to .)
+[1.218s] 
+[1.218s] Installed /home/anna/ros2_ws1/build/nav_in_lab
+[1.218s] running install_data
+[1.219s] creating /home/anna/ros2_ws1/install/nav_in_lab/share/ament_index
+[1.219s] creating /home/anna/ros2_ws1/install/nav_in_lab/share/ament_index/resource_index
+[1.219s] creating /home/anna/ros2_ws1/install/nav_in_lab/share/ament_index/resource_index/packages
+[1.219s] copying resource/nav_in_lab -> /home/anna/ros2_ws1/install/nav_in_lab/share/ament_index/resource_index/packages
+[1.219s] copying package.xml -> /home/anna/ros2_ws1/install/nav_in_lab/share/nav_in_lab
+[1.275s] Invoked command in '/home/anna/ros2_ws1/build/nav_in_lab' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build --no-deps install_data

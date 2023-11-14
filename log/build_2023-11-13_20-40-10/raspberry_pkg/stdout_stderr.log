@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/raspberry_pkg/raspberry_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/raspberry_pkg/raspberry_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/raspberry_pkg/raspberry_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/raspberry_pkg/raspberry_pkg.egg-info/requires.txt
+writing top-level names to ../../build/raspberry_pkg/raspberry_pkg.egg-info/top_level.txt
+reading manifest file '../../build/raspberry_pkg/raspberry_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/raspberry_pkg/raspberry_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying raspberry_pkg/data_converter.py -> /home/anna/ros2_ws1/build/raspberry_pkg/build/lib/raspberry_pkg
+running install
+running install_lib
+copying /home/anna/ros2_ws1/build/raspberry_pkg/build/lib/raspberry_pkg/data_converter.py -> /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg
+byte-compiling /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg/data_converter.py to data_converter.cpython-310.pyc
+running install_data
+copying package.xml -> /home/anna/ros2_ws1/install/raspberry_pkg/share/raspberry_pkg
+running install_egg_info
+removing '/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/raspberry_pkg/raspberry_pkg.egg-info to /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_converter script to /home/anna/ros2_ws1/install/raspberry_pkg/lib/raspberry_pkg
+writing list of installed files to '/home/anna/ros2_ws1/build/raspberry_pkg/install.log'

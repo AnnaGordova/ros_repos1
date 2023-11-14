@@ -1,0 +1,23 @@
+[1.086s] Invoking command in '/home/anna/ros2_ws1/build/Raspberry': PYTHONPATH=/home/anna/ros2_ws1/build/Raspberry/prefix_override:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/Raspberry/build --no-deps install_data
+[1.304s] running develop
+[1.447s] running egg_info
+[1.447s] creating Raspberry.egg-info
+[1.447s] writing Raspberry.egg-info/PKG-INFO
+[1.447s] writing dependency_links to Raspberry.egg-info/dependency_links.txt
+[1.448s] writing entry points to Raspberry.egg-info/entry_points.txt
+[1.448s] writing requirements to Raspberry.egg-info/requires.txt
+[1.448s] writing top-level names to Raspberry.egg-info/top_level.txt
+[1.448s] writing manifest file 'Raspberry.egg-info/SOURCES.txt'
+[1.449s] reading manifest file 'Raspberry.egg-info/SOURCES.txt'
+[1.449s] writing manifest file 'Raspberry.egg-info/SOURCES.txt'
+[1.450s] running build_ext
+[1.450s] Creating /home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages/Raspberry.egg-link (link to .)
+[1.451s] Installing data_converter script to /home/anna/ros2_ws1/install/Raspberry/lib/raspberry_pkg
+[1.451s] 
+[1.451s] Installed /home/anna/ros2_ws1/build/Raspberry
+[1.451s] running install_data
+[1.452s] creating /home/anna/ros2_ws1/install/Raspberry/share/ament_index
+[1.452s] creating /home/anna/ros2_ws1/install/Raspberry/share/ament_index/resource_index
+[1.452s] creating /home/anna/ros2_ws1/install/Raspberry/share/ament_index/resource_index/packages
+[1.452s] error: can't copy 'resource/Raspberry': doesn't exist or not a regular file
+[1.581s] Invoked command in '/home/anna/ros2_ws1/build/Raspberry' returned '1': PYTHONPATH=/home/anna/ros2_ws1/build/Raspberry/prefix_override:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/Raspberry/build --no-deps install_data

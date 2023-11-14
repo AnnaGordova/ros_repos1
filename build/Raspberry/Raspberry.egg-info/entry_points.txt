@@ -1,0 +1,3 @@
+[console_scripts]
+data_converter = raspberry_pkg.data_converter:main
+

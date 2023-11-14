@@ -1,0 +1,30 @@
+[1.174s] Invoking command in '/home/anna/ros2_ws1/build/Raspberry': PYTHONPATH=/home/anna/ros2_ws1/build/Raspberry/prefix_override:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/Raspberry/build
+[1.406s] running develop
+[1.555s] Removing /home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages/Raspberry.egg-link (link to .)
+[1.593s] Invoked command in '/home/anna/ros2_ws1/build/Raspberry' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/Raspberry/prefix_override:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/Raspberry/build
+[1.596s] Invoking command in '/home/anna/ros2_ws1/src/raspberry_pkg': PYTHONPATH=/home/anna/ros2_ws1/build/Raspberry/prefix_override:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Raspberry build --build-base /home/anna/ros2_ws1/build/Raspberry/build install --record /home/anna/ros2_ws1/build/Raspberry/install.log --single-version-externally-managed
+[1.801s] running egg_info
+[1.801s] writing ../../build/Raspberry/Raspberry.egg-info/PKG-INFO
+[1.801s] writing dependency_links to ../../build/Raspberry/Raspberry.egg-info/dependency_links.txt
+[1.801s] writing entry points to ../../build/Raspberry/Raspberry.egg-info/entry_points.txt
+[1.802s] writing requirements to ../../build/Raspberry/Raspberry.egg-info/requires.txt
+[1.802s] writing top-level names to ../../build/Raspberry/Raspberry.egg-info/top_level.txt
+[1.803s] reading manifest file '../../build/Raspberry/Raspberry.egg-info/SOURCES.txt'
+[1.804s] writing manifest file '../../build/Raspberry/Raspberry.egg-info/SOURCES.txt'
+[1.804s] running build
+[1.804s] running build_py
+[1.804s] creating /home/anna/ros2_ws1/build/Raspberry/build
+[1.804s] creating /home/anna/ros2_ws1/build/Raspberry/build/lib
+[1.805s] creating /home/anna/ros2_ws1/build/Raspberry/build/lib/raspberry_pkg
+[1.805s] copying raspberry_pkg/data_converter.py -> /home/anna/ros2_ws1/build/Raspberry/build/lib/raspberry_pkg
+[1.805s] copying raspberry_pkg/__init__.py -> /home/anna/ros2_ws1/build/Raspberry/build/lib/raspberry_pkg
+[1.805s] running install
+[1.805s] running install_lib
+[1.805s] creating /home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages/raspberry_pkg
+[1.805s] copying /home/anna/ros2_ws1/build/Raspberry/build/lib/raspberry_pkg/data_converter.py -> /home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages/raspberry_pkg
+[1.805s] copying /home/anna/ros2_ws1/build/Raspberry/build/lib/raspberry_pkg/__init__.py -> /home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages/raspberry_pkg
+[1.806s] byte-compiling /home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages/raspberry_pkg/data_converter.py to data_converter.cpython-310.pyc
+[1.806s] byte-compiling /home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages/raspberry_pkg/__init__.py to __init__.cpython-310.pyc
+[1.806s] running install_data
+[1.807s] error: can't copy 'resource/Raspberry': doesn't exist or not a regular file
+[1.828s] Invoked command in '/home/anna/ros2_ws1/src/raspberry_pkg' returned '1': PYTHONPATH=/home/anna/ros2_ws1/build/Raspberry/prefix_override:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Raspberry build --build-base /home/anna/ros2_ws1/build/Raspberry/build install --record /home/anna/ros2_ws1/build/Raspberry/install.log --single-version-externally-managed
