@@ -262,11 +262,11 @@ class RightHandRule_Forward(LaserScanSubscriberNode):
         if self.AngRangeList[0].get_range() > 0.5:
             msg.linear.x = 0.3
             self.get_logger().info("Chu-chu!" + " " + str(self.AngRangeList[0].get_range()))
-            if self.AngRangeList[ind3pi2].get_range() >= 0.6:
-                msg.angular.z = 0.09
+            if self.AngRangeList[ind3pi2].get_range() >= 0.6 or self.AngRangeList[ind3pi2].get_range() > self.AngRangeList[ind3pi2].get_range():
+                msg.angular.z = -0.2
                 self.get_logger().info("Calibration 1..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
             elif self.AngRangeList[ind3pi2].get_range() < 0.5:
-                msg.angular.z = -0.09
+                msg.angular.z = 0.2
                 self.get_logger().info("Calibration 2..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
             elif 0.5 <= self.AngRangeList[ind3pi2].get_range() < 0.6:
                 msg.angular.z = 0.00
