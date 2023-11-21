@@ -10,6 +10,7 @@ setup.py
 ../../build/nav_in_lab/nav_in_lab.egg-info/zip-safe
 nav_in_lab/__init__.py
 nav_in_lab/go_lab.py
+nav_in_lab/go_lab_serv.py
 nav_in_lab.egg-info/PKG-INFO
 nav_in_lab.egg-info/SOURCES.txt
 nav_in_lab.egg-info/dependency_links.txt

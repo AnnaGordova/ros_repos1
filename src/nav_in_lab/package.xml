@@ -12,6 +12,7 @@
   <depend>turtlebot3_gazebo </depend>
   <depend>geometry_msgs</depend>
   <depend>time</depend>
+  <depend>std_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

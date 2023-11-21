@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "go_lab = nav_in_lab.go_lab:main",
+            "go_lab_serv = nav_in_lab.go_lab_serv:main"
         ],
     },
 )

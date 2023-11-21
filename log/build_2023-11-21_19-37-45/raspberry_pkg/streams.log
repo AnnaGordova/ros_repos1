@@ -1,0 +1,17 @@
+[1.106s] Invoking command in '/home/anna/ros2_ws1/build/raspberry_pkg': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/raspberry_pkg/build --no-deps install_data
+[1.347s] running develop
+[1.498s] running egg_info
+[1.498s] writing raspberry_pkg.egg-info/PKG-INFO
+[1.498s] writing dependency_links to raspberry_pkg.egg-info/dependency_links.txt
+[1.499s] writing entry points to raspberry_pkg.egg-info/entry_points.txt
+[1.499s] writing requirements to raspberry_pkg.egg-info/requires.txt
+[1.499s] writing top-level names to raspberry_pkg.egg-info/top_level.txt
+[1.500s] reading manifest file 'raspberry_pkg.egg-info/SOURCES.txt'
+[1.501s] writing manifest file 'raspberry_pkg.egg-info/SOURCES.txt'
+[1.502s] running build_ext
+[1.502s] Creating /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry-pkg.egg-link (link to .)
+[1.503s] Installing data_converter script to /home/anna/ros2_ws1/install/raspberry_pkg/lib/raspberry_pkg
+[1.503s] 
+[1.503s] Installed /home/anna/ros2_ws1/build/raspberry_pkg
+[1.503s] running install_data
+[1.605s] Invoked command in '/home/anna/ros2_ws1/build/raspberry_pkg' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/raspberry_pkg/build --no-deps install_data
