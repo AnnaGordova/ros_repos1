@@ -1,0 +1,24 @@
+[1.603s] Invoking command in '/home/anna/ros2_ws1/src/nav_in_lab1': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab1/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_in_lab1 build --build-base /home/anna/ros2_ws1/build/nav_in_lab1/build install --record /home/anna/ros2_ws1/build/nav_in_lab1/install.log --single-version-externally-managed
+[1.886s] running egg_info
+[1.887s] writing ../../build/nav_in_lab1/nav_in_lab1.egg-info/PKG-INFO
+[1.888s] writing dependency_links to ../../build/nav_in_lab1/nav_in_lab1.egg-info/dependency_links.txt
+[1.888s] writing entry points to ../../build/nav_in_lab1/nav_in_lab1.egg-info/entry_points.txt
+[1.888s] writing requirements to ../../build/nav_in_lab1/nav_in_lab1.egg-info/requires.txt
+[1.888s] writing top-level names to ../../build/nav_in_lab1/nav_in_lab1.egg-info/top_level.txt
+[1.890s] reading manifest file '../../build/nav_in_lab1/nav_in_lab1.egg-info/SOURCES.txt'
+[1.891s] writing manifest file '../../build/nav_in_lab1/nav_in_lab1.egg-info/SOURCES.txt'
+[1.891s] running build
+[1.891s] running build_py
+[1.891s] copying nav_in_lab1/go_lab.py -> /home/anna/ros2_ws1/build/nav_in_lab1/build/lib/nav_in_lab1
+[1.892s] running install
+[1.892s] running install_lib
+[1.893s] copying /home/anna/ros2_ws1/build/nav_in_lab1/build/lib/nav_in_lab1/go_lab.py -> /home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages/nav_in_lab1
+[1.893s] byte-compiling /home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages/nav_in_lab1/go_lab.py to go_lab.cpython-310.pyc
+[1.894s] running install_data
+[1.895s] running install_egg_info
+[1.897s] removing '/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages/nav_in_lab1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.897s] Copying ../../build/nav_in_lab1/nav_in_lab1.egg-info to /home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages/nav_in_lab1-0.0.0-py3.10.egg-info
+[1.898s] running install_scripts
+[1.919s] Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab1/lib/nav_in_lab1
+[1.920s] writing list of installed files to '/home/anna/ros2_ws1/build/nav_in_lab1/install.log'
+[2.107s] Invoked command in '/home/anna/ros2_ws1/src/nav_in_lab1' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab1/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_in_lab1 build --build-base /home/anna/ros2_ws1/build/nav_in_lab1/build install --record /home/anna/ros2_ws1/build/nav_in_lab1/install.log --single-version-externally-managed

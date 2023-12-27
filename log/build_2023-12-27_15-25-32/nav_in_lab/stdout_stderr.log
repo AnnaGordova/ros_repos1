@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing nav_in_lab.egg-info/PKG-INFO
+writing dependency_links to nav_in_lab.egg-info/dependency_links.txt
+writing entry points to nav_in_lab.egg-info/entry_points.txt
+writing requirements to nav_in_lab.egg-info/requires.txt
+writing top-level names to nav_in_lab.egg-info/top_level.txt
+reading manifest file 'nav_in_lab.egg-info/SOURCES.txt'
+writing manifest file 'nav_in_lab.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav-in-lab.egg-link (link to .)
+Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+Installing go_lab_serv script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+
+Installed /home/anna/ros2_ws1/build/nav_in_lab
+running install_data

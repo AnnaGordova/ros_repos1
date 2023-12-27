@@ -9,6 +9,8 @@ import time
 FREE_SPACE = -1 # -1 - не определено, 1 - свободно справа, 0 - свободно слева, а справа нет, 2 - только разворот
 TIME_END = -1
 TIME_BEGIN = None
+DIST = True
+DIST_R = -1
 
 #Относительно стабильная версия. Без SLAM. Немного косячит калибровка иногда
 
@@ -42,7 +44,8 @@ class Very_talkative_Node(Node):
        
 class LaserScanSubscriberNode(Node):
     def __init__(self):
-        global TIME_BEGIN
+        global TIME_BEGIN, DIST
+        DIST = True
         self.st1 = Future()
         self.st2 = Future()
         self.st3 = Future()
@@ -170,8 +173,8 @@ class GoForward(LaserScanSubscriberNode):
         min_acceptable_range = min(self.AngRangeList[i].get_range() for i in self.need_indexes)
         self.get_logger().info(str(min_acceptable_range))
         msg = Twist()
-        if min_acceptable_range > 0.7:
-            msg.linear.x = 0.3
+        if min_acceptable_range > 0.4: #0.7
+            msg.linear.x = 0.2 #0.3
             self.get_logger().info("Riding...")
         else:
             msg.linear.x = 0.0
@@ -217,7 +220,7 @@ class TurnAlongTheWall(LaserScanSubscriberNode):
             self.st3.set_result(1)
         self.get_logger().info(str(self.AngRangeList[minlenind].get_angle()) + " " + str(self.AngRangeList[0].get_angle()))
         self.cmd_vel_pub_.publish(msg)   
-        
+'''     
 class RightHandRule_Forward(LaserScanSubscriberNode):
     
     def laser_callback(self, msg: LaserScan):
@@ -239,9 +242,7 @@ class RightHandRule_Forward(LaserScanSubscriberNode):
         for i in range(0, len(angle_list)): #заполянем
             self.AngRangeList.append(LaserAngleAndDistance(angle_list[i], ranges[i]))
         
-        '''
-        for i in range(0, len(self.AngRangeList)): # вывод для красоты
-            self.get_logger().info(self.AngRangeList[i].toStr())'''
+      
         
         
         #self.get_logger().info(self.AngRangeList[5].toStr()) #вывод для проверки
@@ -262,11 +263,11 @@ class RightHandRule_Forward(LaserScanSubscriberNode):
         if self.AngRangeList[0].get_range() > 0.5:
             msg.linear.x = 0.3
             self.get_logger().info("Chu-chu!" + " " + str(self.AngRangeList[0].get_range()))
-            if self.AngRangeList[ind3pi2].get_range() >= 0.6:
-                msg.angular.z = 0.09
+            if self.AngRangeList[ind3pi2].get_range() >= 0.6 or self.AngRangeList[ind3pi2].get_range() > self.AngRangeList[ind3pi2].get_range():
+                msg.angular.z = -0.2
                 self.get_logger().info("Calibration 1..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
             elif self.AngRangeList[ind3pi2].get_range() < 0.5:
-                msg.angular.z = -0.09
+                msg.angular.z = 0.2
                 self.get_logger().info("Calibration 2..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
             elif 0.5 <= self.AngRangeList[ind3pi2].get_range() < 0.6:
                 msg.angular.z = 0.00
@@ -292,8 +293,139 @@ class RightHandRule_Forward(LaserScanSubscriberNode):
                 self.st4_f.set_result(1)
             
             self.st4_f.set_result(1)
-        self.cmd_vel_pub_.publish(msg)
+        self.cmd_vel_pub_.publish(msg)'''
         
+class RightHandRule_Forward(LaserScanSubscriberNode):
+
+
+    def laser_callback(self, msg: LaserScan):
+        global FREE_SPACE, DIST, DIST_R
+
+        self.angle_min = msg.angle_min #задаем поля для углов
+        self.angle_max = msg.angle_max
+        self.angle_increment = msg.angle_increment
+        
+        ranges = msg.ranges #список расстояний
+        angle_list = [] #список углов
+        temp = self.angle_min
+        while temp <= self.angle_max: #заполняем спсиок промежуточных значений углов 
+            angle_list.append(temp)
+            temp += self.angle_increment
+
+        self.AngRangeList = [] #спсиок объектов класса угол-расстояние
+   
+        for i in range(0, len(angle_list)): #заполянем
+            self.AngRangeList.append(LaserAngleAndDistance(angle_list[i], ranges[i]))
+        
+      
+        
+        
+        #self.get_logger().info(self.AngRangeList[5].toStr()) #вывод для проверки
+
+        #------------------------------------------------- закончили обработку входных данных
+        
+
+        msg = Twist()
+
+        indpi2 , ind3pi2= 0, 0
+        eps1, eps2 = 10000000000, 10000000000
+        for i in range(0, len(angle_list)):
+            if abs(angle_list[i] - 3.14/2) < eps1:
+                eps1 = abs(angle_list[i] - 3.14/2)
+                indpi2 = i    
+            if abs(angle_list[i] - (6.28 - 3.14/2)) < eps2:
+                eps2 = abs(angle_list[i] - (6.28 - 3.14/2))
+                ind3pi2 = i   
+        
+        '''
+        #self.get_logger().info(str(DIST))
+        if DIST:
+            DIST_R = self.AngRangeList[ind3pi2].get_range()           
+            DIST = False
+        #self.get_logger().info(str(DIST_R))
+        
+        if self.AngRangeList[0].get_range() > 0.5:
+            msg.linear.x = 0.3
+            self.get_logger().info("Chu-chu!" + " " + str(self.AngRangeList[0].get_range()))
+            if abs(self.AngRangeList[ind3pi2] - DIST_R) >= 0.3:
+                #найти под каким индексом расстояние до стенки
+                #если повернулся к стенке то угол больше 3пи на 2
+                #если повернудся от стенки то угол меньше 3пи на 2
+        '''
+
+        '''
+          #Возможно доработать корректировку на угол
+        if self.AngRangeList[0].get_range() > 0.5:
+            msg.linear.x = 0.3
+            self.get_logger().info("Chu-chu!" + " " + str(self.AngRangeList[0].get_range()))
+            if self.AngRangeList[ind3pi2].get_range() >= 0.6 or self.AngRangeList[ind3pi2].get_range() > self.AngRangeList[ind3pi2].get_range():
+                msg.angular.z = -0.2
+                self.get_logger().info("Calibration 1..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
+            elif self.AngRangeList[ind3pi2].get_range() < 0.5:
+                msg.angular.z = 0.2
+                self.get_logger().info("Calibration 2..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
+            elif 0.5 <= self.AngRangeList[ind3pi2].get_range() < 0.6:
+                msg.angular.z = 0.00
+                self.get_logger().info("Calibration 3..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
+        else:
+            msg.linear.x = 0.0
+            self.get_logger().info("Stop")
+            #проверка своодного места
+            if self.AngRangeList[ind3pi2].get_range() < self.AngRangeList[indpi2].get_range():
+                 #справа свободно
+                FREE_SPACE = 1
+                self.get_logger().info("справа свободно")
+                self.st4_f.set_result(1)
+            elif self.AngRangeList[ind3pi2].get_range() > self.AngRangeList[indpi2].get_range():
+                 #слева свободно
+                FREE_SPACE = 0
+                self.get_logger().info("слева свободно")
+                self.st4_f.set_result(1)
+            elif self.AngRangeList[ind3pi2].get_range() < 0.5 and self.AngRangeList[indpi2].get_range() < 0.5:
+                 #только разворот
+                FREE_SPACE = 2
+                self.get_logger().info("только разворот")
+                self.st4_f.set_result(1)
+            
+            self.st4_f.set_result(1)
+        self.cmd_vel_pub_.publish(msg)'''
+        if self.AngRangeList[0].get_range() > 0.4:
+            msg.linear.x = 0.3
+            self.get_logger().info("Chu-chu!" + " " + str(self.AngRangeList[0].get_range()))
+            if self.AngRangeList[ind3pi2].get_range() > 0.4:
+                msg.angular.z = -0.1
+                msg.linear.x = 0.1
+                self.get_logger().info("Calibration 1..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
+            elif self.AngRangeList[ind3pi2].get_range() < 0.4:
+                msg.angular.z = 0.1
+                msg.linear.x = 0.1
+                self.get_logger().info("Calibration 2..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
+            else: #elif 0.5 <= self.AngRangeList[ind3pi2].get_range() < 0.3:
+                msg.angular.z = 0.00
+                self.get_logger().info("Calibration 3..." + " " + str(self.AngRangeList[ind3pi2].get_range()))
+        else:
+            msg.linear.x = 0.0
+            self.get_logger().info("Stop")
+            #проверка своодного места
+            if self.AngRangeList[ind3pi2].get_range() < self.AngRangeList[indpi2].get_range():
+                 #справа свободно
+                FREE_SPACE = 1
+                self.get_logger().info("справа свободно")
+                self.st4_f.set_result(1)
+            elif self.AngRangeList[ind3pi2].get_range() > self.AngRangeList[indpi2].get_range():
+                 #слева свободно
+                FREE_SPACE = 0
+                self.get_logger().info("слева свободно")
+                self.st4_f.set_result(1)
+            elif self.AngRangeList[ind3pi2].get_range() < 0.3 and self.AngRangeList[indpi2].get_range() < 0.3:
+                 #только разворот
+                FREE_SPACE = 2
+                self.get_logger().info("только разворот")
+                self.st4_f.set_result(1)
+            
+            self.st4_f.set_result(1)
+        self.cmd_vel_pub_.publish(msg)
+
 
 class RightHandRule_Pi2(LaserScanSubscriberNode):
     def laser_callback(self, msg: LaserScan):

@@ -1,0 +1,32 @@
+[1.781s] Invoking command in '/home/anna/ros2_ws1/build/nav_in_lab': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build
+[2.062s] running develop
+[2.249s] Removing /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav-in-lab.egg-link (link to .)
+[2.298s] Invoked command in '/home/anna/ros2_ws1/build/nav_in_lab' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build
+[2.300s] Invoking command in '/home/anna/ros2_ws1/src/nav_in_lab': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_in_lab build --build-base /home/anna/ros2_ws1/build/nav_in_lab/build install --record /home/anna/ros2_ws1/build/nav_in_lab/install.log --single-version-externally-managed
+[2.563s] running egg_info
+[2.563s] writing ../../build/nav_in_lab/nav_in_lab.egg-info/PKG-INFO
+[2.564s] writing dependency_links to ../../build/nav_in_lab/nav_in_lab.egg-info/dependency_links.txt
+[2.564s] writing entry points to ../../build/nav_in_lab/nav_in_lab.egg-info/entry_points.txt
+[2.564s] writing requirements to ../../build/nav_in_lab/nav_in_lab.egg-info/requires.txt
+[2.564s] writing top-level names to ../../build/nav_in_lab/nav_in_lab.egg-info/top_level.txt
+[2.566s] reading manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+[2.567s] writing manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+[2.567s] running build
+[2.567s] running build_py
+[2.568s] running install
+[2.568s] running install_lib
+[2.569s] creating /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[2.569s] copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/go_lab.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[2.569s] copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/go_lab_serv.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[2.570s] copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/__init__.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[2.570s] byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/go_lab.py to go_lab.cpython-310.pyc
+[2.573s] byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/go_lab_serv.py to go_lab_serv.cpython-310.pyc
+[2.574s] byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/__init__.py to __init__.cpython-310.pyc
+[2.574s] running install_data
+[2.575s] running install_egg_info
+[2.577s] Copying ../../build/nav_in_lab/nav_in_lab.egg-info to /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab-0.0.0-py3.10.egg-info
+[2.578s] running install_scripts
+[2.598s] Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[2.598s] Installing go_lab_serv script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[2.599s] writing list of installed files to '/home/anna/ros2_ws1/build/nav_in_lab/install.log'
+[2.648s] Invoked command in '/home/anna/ros2_ws1/src/nav_in_lab' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_in_lab build --build-base /home/anna/ros2_ws1/build/nav_in_lab/build install --record /home/anna/ros2_ws1/build/nav_in_lab/install.log --single-version-externally-managed

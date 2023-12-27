@@ -1,0 +1,31 @@
+[1.495s] Invoking command in '/home/anna/ros2_ws1/build/raspberry_pkg': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/raspberry_pkg/build
+[1.738s] running develop
+[1.888s] Removing /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry-pkg.egg-link (link to .)
+[1.934s] Invoked command in '/home/anna/ros2_ws1/build/raspberry_pkg' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/raspberry_pkg/build
+[1.936s] Invoking command in '/home/anna/ros2_ws1/src/raspberry_pkg': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/raspberry_pkg build --build-base /home/anna/ros2_ws1/build/raspberry_pkg/build install --record /home/anna/ros2_ws1/build/raspberry_pkg/install.log --single-version-externally-managed
+[2.138s] running egg_info
+[2.139s] writing ../../build/raspberry_pkg/raspberry_pkg.egg-info/PKG-INFO
+[2.139s] writing dependency_links to ../../build/raspberry_pkg/raspberry_pkg.egg-info/dependency_links.txt
+[2.139s] writing entry points to ../../build/raspberry_pkg/raspberry_pkg.egg-info/entry_points.txt
+[2.139s] writing requirements to ../../build/raspberry_pkg/raspberry_pkg.egg-info/requires.txt
+[2.139s] writing top-level names to ../../build/raspberry_pkg/raspberry_pkg.egg-info/top_level.txt
+[2.141s] reading manifest file '../../build/raspberry_pkg/raspberry_pkg.egg-info/SOURCES.txt'
+[2.146s] writing manifest file '../../build/raspberry_pkg/raspberry_pkg.egg-info/SOURCES.txt'
+[2.146s] running build
+[2.146s] running build_py
+[2.147s] copying raspberry_pkg/data_converter.py -> /home/anna/ros2_ws1/build/raspberry_pkg/build/lib/raspberry_pkg
+[2.147s] running install
+[2.147s] running install_lib
+[2.148s] creating /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg
+[2.148s] copying /home/anna/ros2_ws1/build/raspberry_pkg/build/lib/raspberry_pkg/data_converter.py -> /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg
+[2.148s] copying /home/anna/ros2_ws1/build/raspberry_pkg/build/lib/raspberry_pkg/__init__.py -> /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg
+[2.148s] byte-compiling /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg/data_converter.py to data_converter.cpython-310.pyc
+[2.149s] byte-compiling /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg/__init__.py to __init__.cpython-310.pyc
+[2.149s] running install_data
+[2.150s] copying package.xml -> /home/anna/ros2_ws1/install/raspberry_pkg/share/raspberry_pkg
+[2.150s] running install_egg_info
+[2.151s] Copying ../../build/raspberry_pkg/raspberry_pkg.egg-info to /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry_pkg-0.0.0-py3.10.egg-info
+[2.152s] running install_scripts
+[2.167s] Installing data_converter script to /home/anna/ros2_ws1/install/raspberry_pkg/lib/raspberry_pkg
+[2.168s] writing list of installed files to '/home/anna/ros2_ws1/build/raspberry_pkg/install.log'
+[2.198s] Invoked command in '/home/anna/ros2_ws1/src/raspberry_pkg' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/raspberry_pkg build --build-base /home/anna/ros2_ws1/build/raspberry_pkg/build install --record /home/anna/ros2_ws1/build/raspberry_pkg/install.log --single-version-externally-managed

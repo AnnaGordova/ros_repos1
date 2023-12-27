@@ -1,0 +1,22 @@
+[1.883s] Invoking command in '/home/anna/ros2_ws1/src/nav_in_lab': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_in_lab build --build-base /home/anna/ros2_ws1/build/nav_in_lab/build install --record /home/anna/ros2_ws1/build/nav_in_lab/install.log --single-version-externally-managed
+[2.159s] running egg_info
+[2.160s] writing ../../build/nav_in_lab/nav_in_lab.egg-info/PKG-INFO
+[2.160s] writing dependency_links to ../../build/nav_in_lab/nav_in_lab.egg-info/dependency_links.txt
+[2.160s] writing entry points to ../../build/nav_in_lab/nav_in_lab.egg-info/entry_points.txt
+[2.160s] writing requirements to ../../build/nav_in_lab/nav_in_lab.egg-info/requires.txt
+[2.160s] writing top-level names to ../../build/nav_in_lab/nav_in_lab.egg-info/top_level.txt
+[2.162s] reading manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+[2.163s] writing manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+[2.164s] running build
+[2.164s] running build_py
+[2.164s] running install
+[2.165s] running install_lib
+[2.166s] running install_data
+[2.166s] running install_egg_info
+[2.169s] removing '/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab-0.0.0-py3.10.egg-info' (and everything under it)
+[2.169s] Copying ../../build/nav_in_lab/nav_in_lab.egg-info to /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab-0.0.0-py3.10.egg-info
+[2.170s] running install_scripts
+[2.194s] Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[2.194s] Installing go_lab_serv script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[2.194s] writing list of installed files to '/home/anna/ros2_ws1/build/nav_in_lab/install.log'
+[2.330s] Invoked command in '/home/anna/ros2_ws1/src/nav_in_lab' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_in_lab build --build-base /home/anna/ros2_ws1/build/nav_in_lab/build install --record /home/anna/ros2_ws1/build/nav_in_lab/install.log --single-version-externally-managed

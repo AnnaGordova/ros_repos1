@@ -1,0 +1,17 @@
+[1.649s] Invoking command in '/home/anna/ros2_ws1/build/nav_in_lab1': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab1/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab1/build --no-deps install_data
+[1.951s] running develop
+[2.139s] running egg_info
+[2.139s] writing nav_in_lab1.egg-info/PKG-INFO
+[2.139s] writing dependency_links to nav_in_lab1.egg-info/dependency_links.txt
+[2.140s] writing entry points to nav_in_lab1.egg-info/entry_points.txt
+[2.140s] writing requirements to nav_in_lab1.egg-info/requires.txt
+[2.140s] writing top-level names to nav_in_lab1.egg-info/top_level.txt
+[2.142s] reading manifest file 'nav_in_lab1.egg-info/SOURCES.txt'
+[2.142s] writing manifest file 'nav_in_lab1.egg-info/SOURCES.txt'
+[2.144s] running build_ext
+[2.145s] Creating /home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages/nav-in-lab1.egg-link (link to .)
+[2.145s] Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab1/lib/nav_in_lab1
+[2.146s] 
+[2.146s] Installed /home/anna/ros2_ws1/build/nav_in_lab1
+[2.146s] running install_data
+[2.241s] Invoked command in '/home/anna/ros2_ws1/build/nav_in_lab1' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab1/prefix_override:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab1/build --no-deps install_data
