@@ -1,0 +1,184 @@
+[0.000000] (-) TimerEvent: {}
+[0.000330] (lvr_project) JobQueued: {'identifier': 'lvr_project', 'dependencies': OrderedDict()}
+[0.000369] (nav_in_lab) JobQueued: {'identifier': 'nav_in_lab', 'dependencies': OrderedDict()}
+[0.000389] (nav_in_lab1) JobQueued: {'identifier': 'nav_in_lab1', 'dependencies': OrderedDict()}
+[0.000408] (raspberry_pkg) JobQueued: {'identifier': 'raspberry_pkg', 'dependencies': OrderedDict()}
+[0.000428] (lvr_project) JobStarted: {'identifier': 'lvr_project'}
+[0.011419] (nav_in_lab) JobStarted: {'identifier': 'nav_in_lab'}
+[0.021494] (nav_in_lab1) JobStarted: {'identifier': 'nav_in_lab1'}
+[0.029680] (raspberry_pkg) JobStarted: {'identifier': 'raspberry_pkg'}
+[0.098523] (-) TimerEvent: {}
+[0.199056] (-) TimerEvent: {}
+[0.299766] (-) TimerEvent: {}
+[0.400318] (-) TimerEvent: {}
+[0.500917] (-) TimerEvent: {}
+[0.601478] (-) TimerEvent: {}
+[0.702139] (-) TimerEvent: {}
+[0.802697] (-) TimerEvent: {}
+[0.903238] (-) TimerEvent: {}
+[1.004736] (-) TimerEvent: {}
+[1.105313] (-) TimerEvent: {}
+[1.205877] (-) TimerEvent: {}
+[1.306406] (-) TimerEvent: {}
+[1.406910] (-) TimerEvent: {}
+[1.507360] (-) TimerEvent: {}
+[1.607833] (-) TimerEvent: {}
+[1.708290] (-) TimerEvent: {}
+[1.808748] (-) TimerEvent: {}
+[1.909237] (-) TimerEvent: {}
+[2.009743] (-) TimerEvent: {}
+[2.110259] (-) TimerEvent: {}
+[2.210853] (-) TimerEvent: {}
+[2.265977] (lvr_project) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/anna/ros2_ws1/build/lvr_project/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/anna/ros2_ws1/build/lvr_project', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anna', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anna', 'OLDPWD': '/home/anna/ros2_ws1/src/lvr_project/lvr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3915', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anna/ros2_ws1/install:/home/anna/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anna', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anna', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/anna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:@/tmp/.ICE-unix/1662,unix/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:/tmp/.ICE-unix/1662', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/78b472e2_adc3_47dc_832d_005ad7d22657', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E27UV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anna/ros2_ws1/build/lvr_project', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anna/ros2_ws1/build/lvr_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.274678] (nav_in_lab1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/anna/ros2_ws1/build/nav_in_lab1/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/anna/ros2_ws1/build/nav_in_lab1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anna', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anna', 'OLDPWD': '/home/anna/ros2_ws1/src/lvr_project/lvr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3915', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anna/ros2_ws1/install:/home/anna/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anna', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anna', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/anna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:@/tmp/.ICE-unix/1662,unix/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:/tmp/.ICE-unix/1662', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/78b472e2_adc3_47dc_832d_005ad7d22657', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E27UV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anna/ros2_ws1/build/nav_in_lab1', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anna/ros2_ws1/build/nav_in_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.279153] (nav_in_lab) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/anna/ros2_ws1/build/nav_in_lab/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/anna/ros2_ws1/build/nav_in_lab', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anna', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anna', 'OLDPWD': '/home/anna/ros2_ws1/src/lvr_project/lvr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3915', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anna/ros2_ws1/install:/home/anna/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anna', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anna', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/anna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:@/tmp/.ICE-unix/1662,unix/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:/tmp/.ICE-unix/1662', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/78b472e2_adc3_47dc_832d_005ad7d22657', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E27UV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anna/ros2_ws1/build/nav_in_lab', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.296148] (raspberry_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/anna/ros2_ws1/build/raspberry_pkg/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/anna/ros2_ws1/build/raspberry_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anna', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anna', 'OLDPWD': '/home/anna/ros2_ws1/src/lvr_project/lvr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3915', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anna/ros2_ws1/install:/home/anna/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anna', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anna', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/anna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:@/tmp/.ICE-unix/1662,unix/anna-Vivobook-ASUSLaptop-M1502IA-M1502IA:/tmp/.ICE-unix/1662', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/78b472e2_adc3_47dc_832d_005ad7d22657', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E27UV2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anna/ros2_ws1/build/raspberry_pkg', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages:/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.310999] (-) TimerEvent: {}
+[2.411530] (-) TimerEvent: {}
+[2.492212] (lvr_project) StderrLine: {'line': b"/home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.492603] (lvr_project) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.504438] (nav_in_lab1) StderrLine: {'line': b"/home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.504879] (nav_in_lab1) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.505035] (nav_in_lab) StderrLine: {'line': b"/home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.505229] (nav_in_lab) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.511681] (-) TimerEvent: {}
+[2.523281] (raspberry_pkg) StderrLine: {'line': b"/home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.523678] (raspberry_pkg) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.611801] (-) TimerEvent: {}
+[2.712221] (-) TimerEvent: {}
+[2.773531] (lvr_project) StdoutLine: {'line': b'running develop\n'}
+[2.774080] (lvr_project) StderrLine: {'line': b'/home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.774255] (lvr_project) StderrLine: {'line': b'!!\n'}
+[2.774391] (lvr_project) StderrLine: {'line': b'\n'}
+[2.774520] (lvr_project) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.774666] (lvr_project) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.774817] (lvr_project) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.774946] (lvr_project) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.775075] (lvr_project) StderrLine: {'line': b'\n'}
+[2.775204] (lvr_project) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.775304] (lvr_project) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.775363] (lvr_project) StderrLine: {'line': b'\n'}
+[2.775422] (lvr_project) StderrLine: {'line': b'!!\n'}
+[2.775480] (lvr_project) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.787378] (nav_in_lab) StdoutLine: {'line': b'running develop\n'}
+[2.787853] (nav_in_lab) StderrLine: {'line': b'/home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.788027] (nav_in_lab) StderrLine: {'line': b'!!\n'}
+[2.788165] (nav_in_lab) StderrLine: {'line': b'\n'}
+[2.788293] (nav_in_lab) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.788422] (nav_in_lab) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.788629] (nav_in_lab) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.788812] (nav_in_lab) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.789216] (nav_in_lab) StderrLine: {'line': b'\n'}
+[2.789334] (nav_in_lab) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.789395] (nav_in_lab) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.789455] (nav_in_lab) StderrLine: {'line': b'\n'}
+[2.789512] (nav_in_lab) StderrLine: {'line': b'!!\n'}
+[2.789570] (nav_in_lab) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.789629] (nav_in_lab1) StdoutLine: {'line': b'running develop\n'}
+[2.789735] (nav_in_lab1) StderrLine: {'line': b'/home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.789803] (nav_in_lab1) StderrLine: {'line': b'!!\n'}
+[2.789863] (nav_in_lab1) StderrLine: {'line': b'\n'}
+[2.789922] (nav_in_lab1) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.789981] (nav_in_lab1) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.790040] (nav_in_lab1) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.790098] (nav_in_lab1) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.790156] (nav_in_lab1) StderrLine: {'line': b'\n'}
+[2.790214] (nav_in_lab1) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.790272] (nav_in_lab1) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.790331] (nav_in_lab1) StderrLine: {'line': b'\n'}
+[2.790389] (nav_in_lab1) StderrLine: {'line': b'!!\n'}
+[2.790447] (nav_in_lab1) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.808227] (raspberry_pkg) StdoutLine: {'line': b'running develop\n'}
+[2.808732] (raspberry_pkg) StderrLine: {'line': b'/home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.808922] (raspberry_pkg) StderrLine: {'line': b'!!\n'}
+[2.809059] (raspberry_pkg) StderrLine: {'line': b'\n'}
+[2.809189] (raspberry_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.809316] (raspberry_pkg) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.809444] (raspberry_pkg) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.809571] (raspberry_pkg) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.809721] (raspberry_pkg) StderrLine: {'line': b'\n'}
+[2.809857] (raspberry_pkg) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.809986] (raspberry_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.810115] (raspberry_pkg) StderrLine: {'line': b'\n'}
+[2.810241] (raspberry_pkg) StderrLine: {'line': b'!!\n'}
+[2.810358] (raspberry_pkg) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.812311] (-) TimerEvent: {}
+[2.912715] (-) TimerEvent: {}
+[3.013142] (-) TimerEvent: {}
+[3.113574] (-) TimerEvent: {}
+[3.141807] (lvr_project) StdoutLine: {'line': b'running egg_info\n'}
+[3.155400] (nav_in_lab) StdoutLine: {'line': b'running egg_info\n'}
+[3.159847] (nav_in_lab1) StdoutLine: {'line': b'running egg_info\n'}
+[3.179674] (raspberry_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.180147] (lvr_project) StdoutLine: {'line': b'writing lvr_project.egg-info/PKG-INFO\n'}
+[3.180844] (lvr_project) StdoutLine: {'line': b'writing dependency_links to lvr_project.egg-info/dependency_links.txt\n'}
+[3.181144] (lvr_project) StdoutLine: {'line': b'writing entry points to lvr_project.egg-info/entry_points.txt\n'}
+[3.181310] (lvr_project) StdoutLine: {'line': b'writing requirements to lvr_project.egg-info/requires.txt\n'}
+[3.181502] (lvr_project) StdoutLine: {'line': b'writing top-level names to lvr_project.egg-info/top_level.txt\n'}
+[3.194600] (nav_in_lab) StdoutLine: {'line': b'writing nav_in_lab.egg-info/PKG-INFO\n'}
+[3.195154] (nav_in_lab) StdoutLine: {'line': b'writing dependency_links to nav_in_lab.egg-info/dependency_links.txt\n'}
+[3.195474] (nav_in_lab) StdoutLine: {'line': b'writing entry points to nav_in_lab.egg-info/entry_points.txt\n'}
+[3.195784] (nav_in_lab) StdoutLine: {'line': b'writing requirements to nav_in_lab.egg-info/requires.txt\n'}
+[3.196102] (nav_in_lab) StdoutLine: {'line': b'writing top-level names to nav_in_lab.egg-info/top_level.txt\n'}
+[3.198946] (nav_in_lab1) StdoutLine: {'line': b'writing nav_in_lab1.egg-info/PKG-INFO\n'}
+[3.199601] (nav_in_lab1) StdoutLine: {'line': b'writing dependency_links to nav_in_lab1.egg-info/dependency_links.txt\n'}
+[3.200014] (nav_in_lab1) StdoutLine: {'line': b'writing entry points to nav_in_lab1.egg-info/entry_points.txt\n'}
+[3.200244] (nav_in_lab1) StdoutLine: {'line': b'writing requirements to nav_in_lab1.egg-info/requires.txt\n'}
+[3.200383] (nav_in_lab1) StdoutLine: {'line': b'writing top-level names to nav_in_lab1.egg-info/top_level.txt\n'}
+[3.213716] (-) TimerEvent: {}
+[3.218863] (raspberry_pkg) StdoutLine: {'line': b'writing raspberry_pkg.egg-info/PKG-INFO\n'}
+[3.219477] (raspberry_pkg) StdoutLine: {'line': b'writing dependency_links to raspberry_pkg.egg-info/dependency_links.txt\n'}
+[3.219826] (raspberry_pkg) StdoutLine: {'line': b'writing entry points to raspberry_pkg.egg-info/entry_points.txt\n'}
+[3.220136] (raspberry_pkg) StdoutLine: {'line': b'writing requirements to raspberry_pkg.egg-info/requires.txt\n'}
+[3.220410] (raspberry_pkg) StdoutLine: {'line': b'writing top-level names to raspberry_pkg.egg-info/top_level.txt\n'}
+[3.240013] (lvr_project) StdoutLine: {'line': b"reading manifest file 'lvr_project.egg-info/SOURCES.txt'\n"}
+[3.241489] (lvr_project) StdoutLine: {'line': b"writing manifest file 'lvr_project.egg-info/SOURCES.txt'\n"}
+[3.254509] (nav_in_lab) StdoutLine: {'line': b"reading manifest file 'nav_in_lab.egg-info/SOURCES.txt'\n"}
+[3.255970] (nav_in_lab) StdoutLine: {'line': b"writing manifest file 'nav_in_lab.egg-info/SOURCES.txt'\n"}
+[3.259351] (nav_in_lab1) StdoutLine: {'line': b"reading manifest file 'nav_in_lab1.egg-info/SOURCES.txt'\n"}
+[3.260792] (nav_in_lab1) StdoutLine: {'line': b"writing manifest file 'nav_in_lab1.egg-info/SOURCES.txt'\n"}
+[3.271431] (lvr_project) StdoutLine: {'line': b'running build_ext\n'}
+[3.271719] (lvr_project) StdoutLine: {'line': b'Creating /home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages/lvr-project.egg-link (link to .)\n'}
+[3.272413] (lvr_project) StdoutLine: {'line': b'Installing protocol_stm32 script to /home/anna/ros2_ws1/install/lvr_project/lib/lvr_project\n'}
+[3.272765] (lvr_project) StdoutLine: {'line': b'\n'}
+[3.273034] (lvr_project) StdoutLine: {'line': b'Installed /home/anna/ros2_ws1/build/lvr_project\n'}
+[3.273368] (lvr_project) StdoutLine: {'line': b'running symlink_data\n'}
+[3.273544] (lvr_project) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/lvr_project/resource/lvr_project -> /home/anna/ros2_ws1/install/lvr_project/share/ament_index/resource_index/packages\n'}
+[3.273801] (lvr_project) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/lvr_project/package.xml -> /home/anna/ros2_ws1/install/lvr_project/share/lvr_project\n'}
+[3.280023] (raspberry_pkg) StdoutLine: {'line': b"reading manifest file 'raspberry_pkg.egg-info/SOURCES.txt'\n"}
+[3.281596] (raspberry_pkg) StdoutLine: {'line': b"writing manifest file 'raspberry_pkg.egg-info/SOURCES.txt'\n"}
+[3.286209] (nav_in_lab) StdoutLine: {'line': b'running build_ext\n'}
+[3.286555] (nav_in_lab) StdoutLine: {'line': b'Creating /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav-in-lab.egg-link (link to .)\n'}
+[3.287238] (nav_in_lab) StdoutLine: {'line': b'Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab\n'}
+[3.287705] (nav_in_lab) StdoutLine: {'line': b'Installing go_lab_serv script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab\n'}
+[3.288004] (nav_in_lab) StdoutLine: {'line': b'\n'}
+[3.288157] (nav_in_lab) StdoutLine: {'line': b'Installed /home/anna/ros2_ws1/build/nav_in_lab\n'}
+[3.288297] (nav_in_lab) StdoutLine: {'line': b'running symlink_data\n'}
+[3.288359] (nav_in_lab) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/nav_in_lab/resource/nav_in_lab -> /home/anna/ros2_ws1/install/nav_in_lab/share/ament_index/resource_index/packages\n'}
+[3.288575] (nav_in_lab) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/nav_in_lab/package.xml -> /home/anna/ros2_ws1/install/nav_in_lab/share/nav_in_lab\n'}
+[3.292248] (nav_in_lab1) StdoutLine: {'line': b'running build_ext\n'}
+[3.292604] (nav_in_lab1) StdoutLine: {'line': b'Creating /home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages/nav-in-lab1.egg-link (link to .)\n'}
+[3.293468] (nav_in_lab1) StdoutLine: {'line': b'Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab1/lib/nav_in_lab1\n'}
+[3.293889] (nav_in_lab1) StdoutLine: {'line': b'\n'}
+[3.294102] (nav_in_lab1) StdoutLine: {'line': b'Installed /home/anna/ros2_ws1/build/nav_in_lab1\n'}
+[3.294331] (nav_in_lab1) StdoutLine: {'line': b'running symlink_data\n'}
+[3.294529] (nav_in_lab1) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/nav_in_lab1/resource/nav_in_lab1 -> /home/anna/ros2_ws1/install/nav_in_lab1/share/ament_index/resource_index/packages\n'}
+[3.294914] (nav_in_lab1) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/nav_in_lab1/package.xml -> /home/anna/ros2_ws1/install/nav_in_lab1/share/nav_in_lab1\n'}
+[3.313815] (raspberry_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[3.314191] (-) TimerEvent: {}
+[3.314439] (raspberry_pkg) StdoutLine: {'line': b'Creating /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry-pkg.egg-link (link to .)\n'}
+[3.315205] (raspberry_pkg) StdoutLine: {'line': b'Installing data_converter script to /home/anna/ros2_ws1/install/raspberry_pkg/lib/raspberry_pkg\n'}
+[3.315673] (raspberry_pkg) StdoutLine: {'line': b'\n'}
+[3.315851] (raspberry_pkg) StdoutLine: {'line': b'Installed /home/anna/ros2_ws1/build/raspberry_pkg\n'}
+[3.315923] (raspberry_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[3.316428] (raspberry_pkg) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/raspberry_pkg/resource/raspberry_pkg -> /home/anna/ros2_ws1/install/raspberry_pkg/share/ament_index/resource_index/packages\n'}
+[3.316822] (raspberry_pkg) StdoutLine: {'line': b'symbolically linking /home/anna/ros2_ws1/build/raspberry_pkg/package.xml -> /home/anna/ros2_ws1/install/raspberry_pkg/share/raspberry_pkg\n'}
+[3.337605] (lvr_project) CommandEnded: {'returncode': 0}
+[3.352613] (lvr_project) JobEnded: {'identifier': 'lvr_project', 'rc': 0}
+[3.356831] (nav_in_lab) CommandEnded: {'returncode': 0}
+[3.365997] (nav_in_lab) JobEnded: {'identifier': 'nav_in_lab', 'rc': 0}
+[3.368920] (nav_in_lab1) CommandEnded: {'returncode': 0}
+[3.377331] (nav_in_lab1) JobEnded: {'identifier': 'nav_in_lab1', 'rc': 0}
+[3.382129] (raspberry_pkg) CommandEnded: {'returncode': 0}
+[3.389829] (raspberry_pkg) JobEnded: {'identifier': 'raspberry_pkg', 'rc': 0}
+[3.391155] (-) EventReactorShutdown: {}

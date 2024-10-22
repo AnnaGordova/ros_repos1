@@ -1,0 +1,54 @@
+[2.497s] Invoking command in '/home/anna/ros2_ws1/build/nav_in_lab': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build
+[2.702s] /home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.702s]   warnings.warn(msg)
+[2.954s] running develop
+[2.961s] /home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.961s] !!
+[2.961s] 
+[2.961s]         ********************************************************************************
+[2.961s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.961s]         Instead, use pypa/build, pypa/installer or other
+[2.961s]         standards-based tools.
+[2.961s] 
+[2.961s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.961s]         ********************************************************************************
+[2.962s] 
+[2.962s] !!
+[2.962s]   easy_install.initialize_options(self)
+[3.334s] Removing /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav-in-lab.egg-link (link to .)
+[3.397s] Invoked command in '/home/anna/ros2_ws1/build/nav_in_lab' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build
+[3.401s] Invoking command in '/home/anna/ros2_ws1/src/nav_in_lab': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav_in_lab build --build-base /home/anna/ros2_ws1/build/nav_in_lab/build install --record /home/anna/ros2_ws1/build/nav_in_lab/install.log --single-version-externally-managed install_data --force
+[3.607s] /home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.607s]   warnings.warn(msg)
+[3.782s] running egg_info
+[3.810s] writing ../../build/nav_in_lab/nav_in_lab.egg-info/PKG-INFO
+[3.811s] writing dependency_links to ../../build/nav_in_lab/nav_in_lab.egg-info/dependency_links.txt
+[3.811s] writing entry points to ../../build/nav_in_lab/nav_in_lab.egg-info/entry_points.txt
+[3.812s] writing requirements to ../../build/nav_in_lab/nav_in_lab.egg-info/requires.txt
+[3.812s] writing top-level names to ../../build/nav_in_lab/nav_in_lab.egg-info/top_level.txt
+[3.870s] reading manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+[3.872s] writing manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+[3.872s] running build
+[3.872s] running build_py
+[3.873s] copying nav_in_lab/go_lab.py -> /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab
+[3.873s] copying nav_in_lab/go_lab_serv.py -> /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab
+[3.874s] copying nav_in_lab/__init__.py -> /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab
+[3.874s] running install
+[3.880s] running install_lib
+[3.909s] creating /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[3.909s] copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/go_lab.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[3.909s] copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/go_lab_serv.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[3.910s] copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/__init__.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+[3.910s] byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/go_lab.py to go_lab.cpython-310.pyc
+[3.913s] byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/go_lab_serv.py to go_lab_serv.cpython-310.pyc
+[3.916s] byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/__init__.py to __init__.cpython-310.pyc
+[3.916s] running install_data
+[3.917s] copying resource/nav_in_lab -> /home/anna/ros2_ws1/install/nav_in_lab/share/ament_index/resource_index/packages
+[3.917s] copying package.xml -> /home/anna/ros2_ws1/install/nav_in_lab/share/nav_in_lab
+[3.917s] running install_egg_info
+[3.947s] Copying ../../build/nav_in_lab/nav_in_lab.egg-info to /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab-0.0.0-py3.10.egg-info
+[3.948s] running install_scripts
+[4.166s] Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[4.167s] Installing go_lab_serv script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[4.167s] writing list of installed files to '/home/anna/ros2_ws1/build/nav_in_lab/install.log'
+[4.216s] Invoked command in '/home/anna/ros2_ws1/src/nav_in_lab' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nav_in_lab build --build-base /home/anna/ros2_ws1/build/nav_in_lab/build install --record /home/anna/ros2_ws1/build/nav_in_lab/install.log --single-version-externally-managed install_data --force

@@ -1,3 +1,2 @@
 [console_scripts]
 go_lab = nav_in_lab1.go_lab:main
-

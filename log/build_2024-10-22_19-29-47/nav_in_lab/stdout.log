@@ -1,0 +1,33 @@
+running develop
+Removing /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav-in-lab.egg-link (link to .)
+running egg_info
+writing ../../build/nav_in_lab/nav_in_lab.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav_in_lab/nav_in_lab.egg-info/dependency_links.txt
+writing entry points to ../../build/nav_in_lab/nav_in_lab.egg-info/entry_points.txt
+writing requirements to ../../build/nav_in_lab/nav_in_lab.egg-info/requires.txt
+writing top-level names to ../../build/nav_in_lab/nav_in_lab.egg-info/top_level.txt
+reading manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav_in_lab/nav_in_lab.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nav_in_lab/go_lab.py -> /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab
+copying nav_in_lab/go_lab_serv.py -> /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab
+copying nav_in_lab/__init__.py -> /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab
+running install
+running install_lib
+creating /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/go_lab.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/go_lab_serv.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+copying /home/anna/ros2_ws1/build/nav_in_lab/build/lib/nav_in_lab/__init__.py -> /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab
+byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/go_lab.py to go_lab.cpython-310.pyc
+byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/go_lab_serv.py to go_lab_serv.cpython-310.pyc
+byte-compiling /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/nav_in_lab -> /home/anna/ros2_ws1/install/nav_in_lab/share/ament_index/resource_index/packages
+copying package.xml -> /home/anna/ros2_ws1/install/nav_in_lab/share/nav_in_lab
+running install_egg_info
+Copying ../../build/nav_in_lab/nav_in_lab.egg-info to /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav_in_lab-0.0.0-py3.10.egg-info
+running install_scripts
+Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+Installing go_lab_serv script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+writing list of installed files to '/home/anna/ros2_ws1/build/nav_in_lab/install.log'

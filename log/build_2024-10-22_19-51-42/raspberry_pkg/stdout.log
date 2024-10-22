@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing raspberry_pkg.egg-info/PKG-INFO
+writing dependency_links to raspberry_pkg.egg-info/dependency_links.txt
+writing entry points to raspberry_pkg.egg-info/entry_points.txt
+writing requirements to raspberry_pkg.egg-info/requires.txt
+writing top-level names to raspberry_pkg.egg-info/top_level.txt
+reading manifest file 'raspberry_pkg.egg-info/SOURCES.txt'
+writing manifest file 'raspberry_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry-pkg.egg-link (link to .)
+Installing data_converter script to /home/anna/ros2_ws1/install/raspberry_pkg/lib/raspberry_pkg
+
+Installed /home/anna/ros2_ws1/build/raspberry_pkg
+running symlink_data
+symbolically linking /home/anna/ros2_ws1/build/raspberry_pkg/resource/raspberry_pkg -> /home/anna/ros2_ws1/install/raspberry_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/anna/ros2_ws1/build/raspberry_pkg/package.xml -> /home/anna/ros2_ws1/install/raspberry_pkg/share/raspberry_pkg

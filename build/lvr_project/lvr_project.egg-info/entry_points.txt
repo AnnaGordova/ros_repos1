@@ -1,0 +1,2 @@
+[console_scripts]
+protocol_stm32 = lvr_project.protocol_stm32:main
