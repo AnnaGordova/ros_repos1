@@ -1,0 +1,1 @@
+/home/anna/ros2_ws1/build/sllidar_ros2/ament_cmake_environment_hooks/local_setup.zsh

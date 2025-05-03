@@ -1,0 +1,2 @@
+[console_scripts]
+publish = kalman_publish.publish:main

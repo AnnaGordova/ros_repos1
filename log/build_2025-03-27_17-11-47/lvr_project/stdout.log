@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing lvr_project.egg-info/PKG-INFO
+writing dependency_links to lvr_project.egg-info/dependency_links.txt
+writing entry points to lvr_project.egg-info/entry_points.txt
+writing requirements to lvr_project.egg-info/requires.txt
+writing top-level names to lvr_project.egg-info/top_level.txt
+reading manifest file 'lvr_project.egg-info/SOURCES.txt'
+writing manifest file 'lvr_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages/lvr-project.egg-link (link to .)
+Installing protocol_stm32 script to /home/anna/ros2_ws1/install/lvr_project/lib/lvr_project
+Installing test_odom script to /home/anna/ros2_ws1/install/lvr_project/lib/lvr_project
+
+Installed /home/anna/ros2_ws1/build/lvr_project
+running symlink_data

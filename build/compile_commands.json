@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/anna/ros2_ws1/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core -I/home/anna/ros2_ws1/src/kiss-icp/cpp -I/home/anna/ros2_ws1/build/kiss_icp/_deps/tessil-src/include -I/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Registration.cpp.o -c /home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp",
+  "file": "/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp"
+},
+{
+  "directory": "/home/anna/ros2_ws1/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core -I/home/anna/ros2_ws1/src/kiss-icp/cpp -I/home/anna/ros2_ws1/build/kiss_icp/_deps/tessil-src/include -I/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o -c /home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp",
+  "file": "/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp"
+},
+{
+  "directory": "/home/anna/ros2_ws1/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core -I/home/anna/ros2_ws1/src/kiss-icp/cpp -I/home/anna/ros2_ws1/build/kiss_icp/_deps/tessil-src/include -I/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o -c /home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp",
+  "file": "/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp"
+},
+{
+  "directory": "/home/anna/ros2_ws1/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core -I/home/anna/ros2_ws1/src/kiss-icp/cpp -I/home/anna/ros2_ws1/build/kiss_icp/_deps/tessil-src/include -I/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o -c /home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp",
+  "file": "/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp"
+},
+{
+  "directory": "/home/anna/ros2_ws1/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core -I/home/anna/ros2_ws1/src/kiss-icp/cpp -I/home/anna/ros2_ws1/build/kiss_icp/_deps/tessil-src/include -I/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o -c /home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp",
+  "file": "/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp"
+},
+{
+  "directory": "/home/anna/ros2_ws1/build/kiss_icp/kiss_icp/metrics",
+  "command": "/usr/bin/c++  -I/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/metrics -I/home/anna/ros2_ws1/src/kiss-icp/cpp -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o -c /home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp",
+  "file": "/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp"
+},
+{
+  "directory": "/home/anna/ros2_ws1/build/kiss_icp/kiss_icp/pipeline",
+  "command": "/usr/bin/c++ -DSOPHUS_USE_BASIC_LOGGING=1 -I/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/pipeline -I/home/anna/ros2_ws1/src/kiss-icp/cpp -I/home/anna/ros2_ws1/build/kiss_icp/_deps/tessil-src/include -I/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-src -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o -c /home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp",
+  "file": "/home/anna/ros2_ws1/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp"
+}
+]

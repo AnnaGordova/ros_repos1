@@ -1,0 +1,35 @@
+[1.482s] Invoking command in '/home/anna/ros2_ws1/build/lvr_project': PYTHONPATH=/home/anna/ros2_ws1/build/lvr_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/lvr_project/build --no-deps symlink_data
+[1.627s] /home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.627s]   warnings.warn(msg)
+[1.823s] running develop
+[1.823s] /home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.823s] !!
+[1.823s] 
+[1.823s]         ********************************************************************************
+[1.823s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.824s]         Instead, use pypa/build, pypa/installer or other
+[1.824s]         standards-based tools.
+[1.824s] 
+[1.824s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.824s]         ********************************************************************************
+[1.824s] 
+[1.824s] !!
+[1.824s]   easy_install.initialize_options(self)
+[2.090s] running egg_info
+[2.110s] writing lvr_project.egg-info/PKG-INFO
+[2.110s] writing dependency_links to lvr_project.egg-info/dependency_links.txt
+[2.110s] writing entry points to lvr_project.egg-info/entry_points.txt
+[2.110s] writing requirements to lvr_project.egg-info/requires.txt
+[2.111s] writing top-level names to lvr_project.egg-info/top_level.txt
+[2.151s] reading manifest file 'lvr_project.egg-info/SOURCES.txt'
+[2.152s] writing manifest file 'lvr_project.egg-info/SOURCES.txt'
+[2.173s] running build_ext
+[2.173s] Creating /home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages/lvr-project.egg-link (link to .)
+[2.173s] Installing cloud_converter script to /home/anna/ros2_ws1/install/lvr_project/lib/lvr_project
+[2.174s] Installing lidar_odom script to /home/anna/ros2_ws1/install/lvr_project/lib/lvr_project
+[2.174s] Installing protocol_stm32 script to /home/anna/ros2_ws1/install/lvr_project/lib/lvr_project
+[2.174s] Installing test_odom script to /home/anna/ros2_ws1/install/lvr_project/lib/lvr_project
+[2.174s] 
+[2.174s] Installed /home/anna/ros2_ws1/build/lvr_project
+[2.174s] running symlink_data
+[2.238s] Invoked command in '/home/anna/ros2_ws1/build/lvr_project' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/lvr_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/lvr_project/build --no-deps symlink_data

@@ -8,7 +8,11 @@ setup.py
 ../../build/lvr_project/lvr_project.egg-info/top_level.txt
 ../../build/lvr_project/lvr_project.egg-info/zip-safe
 lvr_project/__init__.py
+lvr_project/cloud_converter.py
+lvr_project/kiss_icp.py
+lvr_project/lidar_odom.py
 lvr_project/protocol_stm32.py
+lvr_project/test_odom.py
 lvr_project.egg-info/PKG-INFO
 lvr_project.egg-info/SOURCES.txt
 lvr_project.egg-info/dependency_links.txt

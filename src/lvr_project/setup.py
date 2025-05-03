@@ -20,7 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "protocol_stm32 = lvr_project.protocol_stm32:main"
+            "protocol_stm32 = lvr_project.protocol_stm32:main",
+            "test_odom = lvr_project.test_odom:main",
+            'lidar_odom = lvr_project.lidar_odom:main',
+            'cloud_converter = lvr_project.cloud_converter:main',
+            'kiss_icp = lvr_project.kiss_icp:main'
         ],
     },
 )

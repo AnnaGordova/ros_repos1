@@ -1,0 +1,36 @@
+[0.041s] Invoking command in '/home/anna/ros2_ws1/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --build /home/anna/ros2_ws1/build/kiss_icp -- -j16 -l16
+[0.911s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_metrics[0m
+[0.911s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_node[0m
+[0.911s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_core[0m
+[0.911s] [ 14%] Built target kiss_icp_metrics
+[0.911s] [ 57%] Built target kiss_icp_core
+[0.911s] [ 71%] Built target kiss_icp_node
+[0.911s] [35m[1mConsolidate compiler generated dependencies of target kiss_icp_pipeline[0m
+[0.911s] [ 85%] Built target kiss_icp_pipeline
+[0.911s] [35m[1mConsolidate compiler generated dependencies of target odometry_component[0m
+[0.911s] [100%] Built target odometry_component
+[0.912s] Invoked command in '/home/anna/ros2_ws1/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --build /home/anna/ros2_ws1/build/kiss_icp -- -j16 -l16
+[0.961s] Invoking command in '/home/anna/ros2_ws1/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --install /home/anna/ros2_ws1/build/kiss_icp
+[0.969s] -- Install configuration: "Release"
+[0.971s] -- Execute custom install script
+[0.972s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[0.972s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/lib/libodometry_component.so
+[0.973s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[0.974s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[0.974s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[0.974s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[0.974s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[0.975s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[0.975s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/environment/path.sh
+[0.975s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[0.975s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/local_setup.bash
+[0.976s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/local_setup.sh
+[0.976s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[0.976s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[0.976s] -- Symlinking: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/package.dsv
+[0.988s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[0.988s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[0.989s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[0.989s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[0.989s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kiss_icp/share/kiss_icp/package.xml
+[0.992s] Invoked command in '/home/anna/ros2_ws1/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --install /home/anna/ros2_ws1/build/kiss_icp

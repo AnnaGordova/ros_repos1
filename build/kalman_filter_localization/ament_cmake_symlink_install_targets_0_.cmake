@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/anna/ros2_ws1/build/kalman_filter_localization/ekf_localization_node" "TARGETS" "ekf_localization_node" "DESTINATION" "lib/kalman_filter_localization")

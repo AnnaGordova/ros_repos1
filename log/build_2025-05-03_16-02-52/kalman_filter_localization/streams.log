@@ -1,0 +1,34 @@
+[0.050s] Invoking command in '/home/anna/ros2_ws1/build/kalman_filter_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/kalman_publish:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --build /home/anna/ros2_ws1/build/kalman_filter_localization -- -j16 -l16
+[1.122s] [ 50%] Built target ekf_localization_component
+[1.123s] [100%] Built target ekf_localization_node
+[1.131s] Invoked command in '/home/anna/ros2_ws1/build/kalman_filter_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/kalman_publish:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --build /home/anna/ros2_ws1/build/kalman_filter_localization -- -j16 -l16
+[1.170s] Invoking command in '/home/anna/ros2_ws1/build/kalman_filter_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/kalman_publish:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --install /home/anna/ros2_ws1/build/kalman_filter_localization
+[1.179s] -- Install configuration: ""
+[1.179s] -- Up-to-date: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/launch
+[1.179s] -- Up-to-date: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/param
+[1.179s] -- Execute custom install script
+[1.180s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/include/kalman_filter_localization/ekf.hpp
+[1.180s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/include/kalman_filter_localization/ekf_localization_component.hpp
+[1.180s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/launch/ekf.launch.py
+[1.180s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/param/ekf.yaml
+[1.180s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/lib/kalman_filter_localization/ekf_localization_node
+[1.181s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/lib/libekf_localization_component.so
+[1.181s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/ament_index/resource_index/package_run_dependencies/kalman_filter_localization
+[1.181s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/ament_index/resource_index/parent_prefix_path/kalman_filter_localization
+[1.181s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/environment/ament_prefix_path.sh
+[1.181s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/environment/ament_prefix_path.dsv
+[1.181s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/environment/path.sh
+[1.181s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/environment/path.dsv
+[1.182s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/local_setup.bash
+[1.182s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/local_setup.sh
+[1.182s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/local_setup.zsh
+[1.182s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/local_setup.dsv
+[1.182s] -- Symlinking: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/package.dsv
+[1.193s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/ament_index/resource_index/packages/kalman_filter_localization
+[1.194s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/ament_index/resource_index/rclcpp_components/kalman_filter_localization
+[1.194s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.194s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.194s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/cmake/kalman_filter_localizationConfig.cmake
+[1.194s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/cmake/kalman_filter_localizationConfig-version.cmake
+[1.195s] -- Up-to-date symlink: /home/anna/ros2_ws1/install/kalman_filter_localization/share/kalman_filter_localization/package.xml
+[1.198s] Invoked command in '/home/anna/ros2_ws1/build/kalman_filter_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anna/ros2_ws1/install/raspberry_pkg:/home/anna/ros2_ws1/install/nav_in_lab1:/home/anna/ros2_ws1/install/nav_in_lab:/home/anna/ros2_ws1/install/lvr_project:/home/anna/ros2_ws1/install/kalman_publish:/home/anna/ros2_ws1/install/Raspberry:/opt/ros/humble /usr/bin/cmake --install /home/anna/ros2_ws1/build/kalman_filter_localization

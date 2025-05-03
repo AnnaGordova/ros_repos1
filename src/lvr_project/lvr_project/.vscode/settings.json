@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/anna/ros2_ws1/build/raspberry_pkg",
+        "/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/build/nav_in_lab1",
+        "/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/build/nav_in_lab",
+        "/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/build/lvr_project",
+        "/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/anna/ros2_ws1/build/raspberry_pkg",
+        "/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/build/nav_in_lab1",
+        "/home/anna/ros2_ws1/install/nav_in_lab1/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/build/nav_in_lab",
+        "/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/build/lvr_project",
+        "/home/anna/ros2_ws1/install/lvr_project/lib/python3.10/site-packages",
+        "/home/anna/ros2_ws1/install/Raspberry/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

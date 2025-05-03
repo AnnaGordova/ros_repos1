@@ -1,0 +1,32 @@
+[1.595s] Invoking command in '/home/anna/ros2_ws1/build/raspberry_pkg': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/raspberry_pkg/build --no-deps symlink_data
+[1.745s] /home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.745s]   warnings.warn(msg)
+[1.941s] running develop
+[1.947s] /home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.947s] !!
+[1.947s] 
+[1.947s]         ********************************************************************************
+[1.947s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.947s]         Instead, use pypa/build, pypa/installer or other
+[1.947s]         standards-based tools.
+[1.947s] 
+[1.947s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.947s]         ********************************************************************************
+[1.947s] 
+[1.947s] !!
+[1.948s]   easy_install.initialize_options(self)
+[2.214s] running egg_info
+[2.234s] writing raspberry_pkg.egg-info/PKG-INFO
+[2.234s] writing dependency_links to raspberry_pkg.egg-info/dependency_links.txt
+[2.234s] writing entry points to raspberry_pkg.egg-info/entry_points.txt
+[2.234s] writing requirements to raspberry_pkg.egg-info/requires.txt
+[2.234s] writing top-level names to raspberry_pkg.egg-info/top_level.txt
+[2.274s] reading manifest file 'raspberry_pkg.egg-info/SOURCES.txt'
+[2.275s] writing manifest file 'raspberry_pkg.egg-info/SOURCES.txt'
+[2.297s] running build_ext
+[2.297s] Creating /home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages/raspberry-pkg.egg-link (link to .)
+[2.298s] Installing data_converter script to /home/anna/ros2_ws1/install/raspberry_pkg/lib/raspberry_pkg
+[2.298s] 
+[2.299s] Installed /home/anna/ros2_ws1/build/raspberry_pkg
+[2.299s] running symlink_data
+[2.391s] Invoked command in '/home/anna/ros2_ws1/build/raspberry_pkg' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/raspberry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/raspberry_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/raspberry_pkg/build --no-deps symlink_data

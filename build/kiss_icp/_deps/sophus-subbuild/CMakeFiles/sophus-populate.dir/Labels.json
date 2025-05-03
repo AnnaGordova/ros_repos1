@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/CMakeFiles/sophus-populate"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/CMakeFiles/sophus-populate.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/CMakeFiles/sophus-populate-complete.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-build.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-configure.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-download.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-install.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-patch.rule"
+		},
+		{
+			"file" : "/home/anna/ros2_ws1/build/kiss_icp/_deps/sophus-subbuild/sophus-populate-prefix/src/sophus-populate-stamp/sophus-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sophus-populate"
+		],
+		"name" : "sophus-populate"
+	}
+}
