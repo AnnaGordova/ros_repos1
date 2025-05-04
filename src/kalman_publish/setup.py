@@ -25,7 +25,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publish = kalman_publish.publish:main'
+            'publish = kalman_publish.publish:main',
+            'painter = kalman_publish.painter:main'
         ],
     },
 )

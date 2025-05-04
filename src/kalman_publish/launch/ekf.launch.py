@@ -9,7 +9,7 @@ def generate_launch_description():
             executable='ekf_node',
             name='ekf_filter_node',
             output='screen',
-            parameters=['/kalman_publish/config/ekf.yaml']
+            parameters=['../config/ekf.yaml']
         ),
         
         # Ваш существующий узел публикации
@@ -18,5 +18,13 @@ def generate_launch_description():
             executable='publish',
             name='odometry_publisher',
             output='screen'
+        ),
+
+        Node(
+            package='kalman_publish',
+            executable='painter',
+            name='painter_filtered',
+            output='screen'
         )
+        
     ])

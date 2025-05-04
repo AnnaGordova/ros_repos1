@@ -1,0 +1,33 @@
+[2.022s] Invoking command in '/home/anna/ros2_ws1/build/kalman_publish': PYTHONPATH=/home/anna/ros2_ws1/build/kalman_publish/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/kalman_publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/kalman_publish/build --no-deps symlink_data
+[2.183s] /home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.183s]   warnings.warn(msg)
+[2.392s] running develop
+[2.392s] /home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.392s] !!
+[2.392s] 
+[2.392s]         ********************************************************************************
+[2.392s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.392s]         Instead, use pypa/build, pypa/installer or other
+[2.392s]         standards-based tools.
+[2.392s] 
+[2.392s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.393s]         ********************************************************************************
+[2.393s] 
+[2.393s] !!
+[2.393s]   easy_install.initialize_options(self)
+[2.680s] running egg_info
+[2.700s] writing kalman_publish.egg-info/PKG-INFO
+[2.701s] writing dependency_links to kalman_publish.egg-info/dependency_links.txt
+[2.701s] writing entry points to kalman_publish.egg-info/entry_points.txt
+[2.701s] writing requirements to kalman_publish.egg-info/requires.txt
+[2.701s] writing top-level names to kalman_publish.egg-info/top_level.txt
+[2.741s] reading manifest file 'kalman_publish.egg-info/SOURCES.txt'
+[2.743s] writing manifest file 'kalman_publish.egg-info/SOURCES.txt'
+[2.795s] running build_ext
+[2.795s] Creating /home/anna/ros2_ws1/install/kalman_publish/lib/python3.10/site-packages/kalman-publish.egg-link (link to .)
+[2.796s] Installing painter script to /home/anna/ros2_ws1/install/kalman_publish/lib/kalman_publish
+[2.796s] Installing publish script to /home/anna/ros2_ws1/install/kalman_publish/lib/kalman_publish
+[2.796s] 
+[2.796s] Installed /home/anna/ros2_ws1/build/kalman_publish
+[2.796s] running symlink_data
+[2.891s] Invoked command in '/home/anna/ros2_ws1/build/kalman_publish' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/kalman_publish/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/kalman_publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/kalman_publish/build --no-deps symlink_data

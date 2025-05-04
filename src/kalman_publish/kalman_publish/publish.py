@@ -53,10 +53,12 @@ class OdometryPublisher(Node):
         self.publisher1.publish(odom_msg_1)
 
         
+        
         # Вычисляем координаты x и y по кругу для второго топика (можно использовать другой радиус или угол)
         x2 = x1 + np.random.normal(0, 0.02)  # Немного изменяем позицию для второго топика
         y2 = y1 + np.random.normal(0, 0.02)
-
+        
+        
         # Сохраняем координаты для второго топика
         self.x_positions_2.append(x2)
         self.y_positions_2.append(y2)
@@ -84,7 +86,7 @@ class OdometryPublisher(Node):
             if len(self.x_positions_1) > 0:
                 plt.subplot(121)  # Первый подграфик (левая часть)
                 plt.plot(self.x_positions_1, self.y_positions_1, marker='o', markersize=3, linestyle='-', color='b')
-                plt.title('Robot Trajectory - Topic 1')
+                plt.title('Robot Trajectory - Sensor 1')
                 plt.xlabel('X Position')
                 plt.ylabel('Y Position')
                 plt.grid(True)
@@ -94,7 +96,7 @@ class OdometryPublisher(Node):
             if len(self.x_positions_2) > 0:
                 plt.subplot(122)  # Второй подграфик (правая часть)
                 plt.plot(self.x_positions_2, self.y_positions_2, marker='o', markersize=3, linestyle='-', color='r')
-                plt.title('Robot Trajectory - Topic 2')
+                plt.title('Robot Trajectory - Sensor 2')
                 plt.xlabel('X Position')
                 plt.ylabel('Y Position')
                 plt.grid(True)

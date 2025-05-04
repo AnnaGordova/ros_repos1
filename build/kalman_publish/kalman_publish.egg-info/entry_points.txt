@@ -1,2 +1,3 @@
 [console_scripts]
+painter = kalman_publish.painter:main
 publish = kalman_publish.publish:main

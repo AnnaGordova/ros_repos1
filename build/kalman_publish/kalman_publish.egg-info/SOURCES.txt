@@ -3,7 +3,7 @@ setup.cfg
 setup.py
 config/ekf.yaml
 kalman_publish/__init__.py
-kalman_publish/kalman.py
+kalman_publish/painter.py
 kalman_publish/publish.py
 kalman_publish.egg-info/PKG-INFO
 kalman_publish.egg-info/SOURCES.txt

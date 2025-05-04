@@ -1,0 +1,33 @@
+[2.009s] Invoking command in '/home/anna/ros2_ws1/build/nav_in_lab': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build --no-deps symlink_data
+[2.170s] /home/anna/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.170s]   warnings.warn(msg)
+[2.380s] running develop
+[2.380s] /home/anna/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.380s] !!
+[2.380s] 
+[2.380s]         ********************************************************************************
+[2.381s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.381s]         Instead, use pypa/build, pypa/installer or other
+[2.381s]         standards-based tools.
+[2.381s] 
+[2.381s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.381s]         ********************************************************************************
+[2.381s] 
+[2.381s] !!
+[2.381s]   easy_install.initialize_options(self)
+[2.673s] running egg_info
+[2.694s] writing nav_in_lab.egg-info/PKG-INFO
+[2.695s] writing dependency_links to nav_in_lab.egg-info/dependency_links.txt
+[2.695s] writing entry points to nav_in_lab.egg-info/entry_points.txt
+[2.695s] writing requirements to nav_in_lab.egg-info/requires.txt
+[2.695s] writing top-level names to nav_in_lab.egg-info/top_level.txt
+[2.738s] reading manifest file 'nav_in_lab.egg-info/SOURCES.txt'
+[2.739s] writing manifest file 'nav_in_lab.egg-info/SOURCES.txt'
+[2.793s] running build_ext
+[2.793s] Creating /home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages/nav-in-lab.egg-link (link to .)
+[2.795s] Installing go_lab script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[2.795s] Installing go_lab_serv script to /home/anna/ros2_ws1/install/nav_in_lab/lib/nav_in_lab
+[2.795s] 
+[2.795s] Installed /home/anna/ros2_ws1/build/nav_in_lab
+[2.795s] running symlink_data
+[2.881s] Invoked command in '/home/anna/ros2_ws1/build/nav_in_lab' returned '0': PYTHONPATH=/home/anna/ros2_ws1/build/nav_in_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anna/ros2_ws1/install/nav_in_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anna/ros2_ws1/build/nav_in_lab/build --no-deps symlink_data
