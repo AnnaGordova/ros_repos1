@@ -20,7 +20,7 @@ class TrajectoryVisualizer(Node):
         plt.ion()  # Включение интерактивного режима
         
         self.fig, self.ax = plt.subplots()
-        self.line, = self.ax.plot([], [], 'b-')  # Линия для траектории
+        self.line, = self.ax.plot([], [], 'g-')  # Линия для траектории
         self.ax.set_xlim(-1.5, 1.5)  # Установите пределы по оси X
         self.ax.set_ylim(-1.5, 1.5)  # Установите пределы по оси Y
         self.ax.set_xlabel('X Position')

@@ -22,9 +22,16 @@ class OdometryPublisher(Node):
         self.x_positions_2 = []
         self.y_positions_2 = []
 
+        # Списки для хранения истинных координат
+        self.true_x_positions_1 = []
+        self.true_y_positions_1 = []
+        self.true_x_positions_2 = []
+        self.true_y_positions_2 = []
+        
         # Запускаем поток для отрисовки траектории
         self.plot_thread = Thread(target=self.plot_trajectory)
         self.plot_thread.start()
+        
 
     def publish_odometry(self):
         # Вычисляем координаты x и y по кругу для первого топика
@@ -42,6 +49,9 @@ class OdometryPublisher(Node):
         self.x_positions_1.append(noisy_x1)
         self.y_positions_1.append(noisy_y1)
 
+        self.true_x_positions_1.append(x1)
+        self.true_y_positions_1.append(y1)
+
         # Создаем сообщение Odometry для первого топика
         odom_msg_1 = Odometry()
         odom_msg_1.header.stamp = self.get_clock().now().to_msg()
@@ -58,7 +68,8 @@ class OdometryPublisher(Node):
         x2 = x1 + np.random.normal(0, 0.02)  # Немного изменяем позицию для второго топика
         y2 = y1 + np.random.normal(0, 0.02)
         
-        
+        self.true_x_positions_2.append(x1)
+        self.true_y_positions_2.append(y1)
         # Сохраняем координаты для второго топика
         self.x_positions_2.append(x2)
         self.y_positions_2.append(y2)
@@ -77,6 +88,13 @@ class OdometryPublisher(Node):
         # Увеличиваем угол для следующей итерации (движение по кругу)
         self.angle += np.pi / 30  
 
+    def calculate_rmse(self):
+        rmse_sensor_1 = np.sqrt(np.mean((np.array(self.x_positions_1) - np.array(self.true_x_positions_1))**2 +
+                                         (np.array(self.y_positions_1) - np.array(self.true_y_positions_1))**2))
+        rmse_sensor_2 = np.sqrt(np.mean((np.array(self.x_positions_2) - np.array(self.true_x_positions_2))**2 +
+                                         (np.array(self.y_positions_2) - np.array(self.true_y_positions_2))**2))
+        return rmse_sensor_1, rmse_sensor_2
+    
     def plot_trajectory(self):
         plt.figure(figsize=(10, 5))
          
@@ -102,8 +120,16 @@ class OdometryPublisher(Node):
                 plt.grid(True)
                 plt.xlim(-self.radius - 0.5, self.radius + 0.5)
                 plt.ylim(-self.radius - 0.5, self.radius + 0.5)
+            '''
+            if len(self.x_positions_1) >= 100:   # Например после получения первых ста точек можно посчитать RMSE.
+                rmse_sensor_one , rmse_sensor_two = self.calculate_rmse()
+                print(f"RMSE for Sensor 01: {rmse_sensor_one}")
+                print(f"RMSE for Sensor 02: {rmse_sensor_two}")'''
+                
 
             plt.pause(0.01)  # Обновляем график
+#[publish-2] RMSE for Sensor 01: 0.06944669422811683
+#[publish-2] RMSE for Sensor 02: 0.02981138908173804
 
 def main(args=None):
     rclpy.init(args=args)

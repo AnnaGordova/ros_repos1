@@ -2,6 +2,8 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
+    # print(../config/ekf.yaml)
+
     return LaunchDescription([
         # Узел EKF
         Node(
@@ -9,7 +11,8 @@ def generate_launch_description():
             executable='ekf_node',
             name='ekf_filter_node',
             output='screen',
-            parameters=['../config/ekf.yaml']
+            #parameters=['../config/ekf.yaml'] запускаить из ~/ros2_ws1/src/kalman_publish/launch
+            parameters=['/home/anna/ros2_ws1/src/kalman_publish/config/ekf.yaml']
         ),
         
         # Ваш существующий узел публикации
